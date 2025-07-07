@@ -1,0 +1,16 @@
+ .container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Tambem poderia ter feito das seguintes formas:
+
+div p | (seleciono todo *tipo p* dentro do *tipo/container div*
+
+div .text | (seleciono toda *classe "text"* dentro do *tipo/container div*
+
+.container p | (seleciono todo o *tipo p* dentro da *classe "container"*
+
+*/
