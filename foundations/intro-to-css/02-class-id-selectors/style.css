@@ -1,8 +1,8 @@
 .odd {
-  background-color: rgb(238, 128, 146);
-  font-family: Verdana, "DejaVu sans", sans-serif;
+    background-color: rgb(238, 128, 146);
+    font-family: Verdana, "DejaVu sans", sans-serif;
 
-}  
+}
 
 #number-two {
     color: rgb(4, 0, 255);
@@ -10,16 +10,17 @@
 }
 
 .cooler {
-    font-size: 24px; 
+    font-size: 24px;
 
 }
 
-/*No seletor de ID abaixo, poderia ter colocado o elemento 4 dentro da classe "cooler" no arquivo HTML, ja que compartilham da mesma fonte,
-isso possibilitaria eliminar a linha de codigo 'font-size'.
+/*
+ No seletor de ID abaixo, poderia ter colocado o elemento 4 dentro da classe "cooler" no arquivo HTML, ja que compartilham da mesma fonte,
+ isso possibilitaria eliminar a linha de codigo 'font-size'.
 */
 
-#number-four   
-    {background-color: #7eca7e;
+#number-four {
+    background-color: #7eca7e;
     font-size: 24px;
     font-weight: bold;
 

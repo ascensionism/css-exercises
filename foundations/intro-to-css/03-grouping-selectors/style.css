@@ -1,0 +1,49 @@
+.black-one {
+    background-color: black;
+    color: white;
+}
+
+.yellow-one.font {
+    background-color: yellow;
+    color: black;
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/*Nao funcinou, deveria ter feito como no exemplo abaixo
+
+.black-one,
+.yellow-one 
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.black-one {
+  background-color: black;
+  color: white;
+}
+
+.yellow-one {
+  background-color: yellow;
+}
+*/
+
+/*No meu codigo, utilizei "chaining selector" ao inves de "grouping selector". 
+A forma correta de utilizar o chaining selector e quando dois elementos tem uma classe em comum e outra classe que se destingue,
+e quero selecionar somente um desses elementos em especifico.
+Ex: 
+    *index*
+<div>
+  <div class="subsection header">Latest Posts</div>
+  <p class="subsection preview">This is where a preview for a post might go.</p>
+</div>
+
+    *css*
+.subsection.header {
+  color: red;
+}
+Utilizei o chaining selector para selecionar somente o elemento com a classe "subsection header".
+
+O "grouping selector" eh utilizado para selecionar mais de um elemento, com classes diferentes.
+Eh preciso somente utilizar uma virgula para separar as classes, como no exemplo da solucao.
+
